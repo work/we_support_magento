@@ -65,19 +65,13 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
 <body <?php body_class(); ?>>
 <div class="content-pad">
 
-<div id="header">
-	<?php t_get_logo ('<div id="logo">', '</div>', 'logo.gif', true); ?>
-        
-  <div id="top_search"> 
-      <?php get_search_form(); ?>
-  </div>
-</div>
-
 <div class="top">
-    <div id="menu">	
+    <?php t_get_logo ('<div id="logo">', '</div>', 'logo.gif', true); ?>
+    <div id="menu">
        <?php natty_show_navigation ('primary', 'natty_show_pagemenu'); ?>
-    </div>                
+    </div>
 </div> <!-- END top -->
+
 <div class="clear"></div>
 <div class="head-img">
 

@@ -59,5 +59,7 @@ $t_show_post = t_get_option ("t_show_post");
    <div id="sidebar" class="profile">
      <?php get_sidebar();?>
    </div>    
-<div class="clear"></div>    
+<div class="clear"></div>
+</div> <!-- END Columns -->
+</div><!-- END main -->
 <?php get_footer(); ?> 

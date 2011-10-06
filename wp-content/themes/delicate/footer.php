@@ -5,14 +5,19 @@ $t_slide_effect = t_get_option('t_slide_effect');
 ?>
 
 <div id="footer">
-<div class="lt"><?php _e('Copyright &copy; 2010 ','nattywp'); ?><?php _e('All rights reserved.','nattywp'); ?></div>
-<div class="rt">Designed by <a href="http://www.nattywp.com" title="NattyWP"><img src="<?php echo get_template_directory_uri(); ?>/images/natty-logo.png" width="82" height="17" valign="3px" class="png" alt="NattyWP" align="middle" /></a></div>		
-<div class="clear"></div>			
+    <div class="footer_block" id="footer_menu">
+       <?php natty_show_navigation ('primary', 'natty_show_pagemenu'); ?>
+    </div>
+    <div class="footer_line"></div>
+    <div class="footer_block footer_block_bottom">
+        <div class="footer_cont_block">
+            <h1><?php _e('Get Magento support'); ?></h1>
+            <p class="phone_block"><?php _e('380-33-567-67'); ?></p>
+            <p class="email_block"><?php _e('mail@wesupportmagento.com'); ?></p>
+        </div>
+    </div>
 </div>
-    </div> <!-- END Columns --> 
     
-   
-</div><!-- END main -->
 </div>  
 <div class="clear"></div>
 
