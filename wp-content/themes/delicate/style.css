@@ -235,7 +235,7 @@ img.attachment-thumbnail {float: left; padding: 0 10px 0 0 !important;}
 #footer .rt img.png {margin-top:-5px;}
 
 /* Navigation */
-#menu {float: right;}
+#menu {float: right; margin-right: 35px;}
 
 .topnav { z-index:99; margin:0; padding:0; list-style:none; line-height:1;}
 .topnav li { padding-right:30px;}

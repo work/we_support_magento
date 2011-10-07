@@ -5,7 +5,7 @@
 add_editor_style(); 
 add_theme_support( 'post-thumbnails' );
 if ( function_exists( 'add_image_size' ) ) { 
-	add_image_size( 'slide-thumb', 970, 225, true); //(cropped)
+	add_image_size( 'slide-thumb', 990, 360, true); //(cropped)
 }
 
 add_custom_background(); // Add support for custom backgrounds
@@ -16,8 +16,8 @@ if (get_option('nattywp_custom_header') != '') {
   define('HEADER_IMAGE', get_option('nattywp_custom_header')); // %s is the template dir uri
 } else {
   define ('HEADER_IMAGE', '');}
-define ('HEADER_IMAGE_WIDTH', apply_filters( 'delicate_header_image_width', 970 ));
-define ('HEADER_IMAGE_HEIGHT', apply_filters( 'delicate_header_image_height', 225 ));
+define ('HEADER_IMAGE_WIDTH', apply_filters( 'delicate_header_image_width', 990 ));
+define ('HEADER_IMAGE_HEIGHT', apply_filters( 'delicate_header_image_height', 360 ));
 add_theme_support( 'custom-header', array( 'random-default' => true ) ); // Enable Random
 add_custom_image_header ('delicate_header_style', 'delicate_admin_header_style', 'delicate_admin_header_image');
 	register_default_headers (array(
@@ -49,10 +49,10 @@ endif; // delicate_header_style
 if ( !function_exists( 'delicate_admin_header_style')) :
   function delicate_admin_header_style() { ?>
 	<style type="text/css">
-    .appearance_page_custom-header #headimg {border: none; width:970px;}
+    .appearance_page_custom-header #headimg {border: none; width:990px;}
     #headimg {position:relative; background:#f7f7f7;}
     #desc {font-size:12px; font-weight:bold; padding:6px 17px 4px 12px; position:absolute; top:50%; right:0px; background:#fff; text-transform:uppercase; <?php if ( get_header_textcolor() != HEADER_TEXTCOLOR ) echo 'color: #'. get_header_textcolor().';'; ?>}
-    #headimg img {max-width:970px; height: auto; width: 100%;}
+    #headimg img {max-width:990px; height: auto; width: 100%;}
 	</style>
 <?php
 }

@@ -31,4 +31,6 @@
       } ?>  
     </div>    
 <div class="clear"></div>
+</div> <!-- END Columns -->
+</div><!-- END main -->
 <?php get_footer(); ?> 
