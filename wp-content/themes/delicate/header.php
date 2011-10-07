@@ -60,6 +60,24 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
   $t_scroll_pages = t_get_option( "t_scroll_pages" );  
 ?>
 </style>
+
+<script type="text/javascript">
+    WebFontConfig = {
+      custom: { families: ['aRubricaXtCnRegular'],
+        urls: [ '<?php echo bloginfo('stylesheet_directory'); ?>/fonts/stylesheet.css' ] }
+    };
+
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -68,9 +86,16 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
 <div class="top">
     <?php t_get_logo ('<div id="logo">', '</div>', 'logo.gif', true); ?>
     <div id="menu">
-       <?php natty_show_navigation ('primary', 'natty_show_pagemenu'); ?>
+       <?php wp_nav_menu( array( 'id' => 'Menu', 'before' => '<span>', 'after' => '</span>' ) ); ?>
     </div>
 </div> <!-- END top -->
+
+<script type="text/javascript">
+    jQuery(document).ready(function()
+    {
+       jQuery('#menu li.menu-item:last').addClass('last');
+    });
+</script>
 
 <div class="clear"></div>
 <div class="head-img">

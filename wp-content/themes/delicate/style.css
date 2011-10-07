@@ -235,7 +235,7 @@ img.attachment-thumbnail {float: left; padding: 0 10px 0 0 !important;}
 #footer .rt img.png {margin-top:-5px;}
 
 /* Navigation */
-#menu {padding-top:5px; float: right;}
+#menu {float: right;}
 
 .topnav { z-index:99; margin:0; padding:0; list-style:none; line-height:1;}
 .topnav li { padding-right:30px;}
@@ -478,12 +478,74 @@ li.comment #respond #comment-form p {padding:5px;}
     float: left;
 }
 
-#footer_menu #menu-menu {
+#footer_menu .menu-menu-container {
     width: 330px;
     margin: 0 auto;
 }
 
-#footer_menu #menu-menu li.last {
+#footer_menu .menu-menu-container li.last {
     background: none;
 }
 
+
+#menu #menu-menu li {
+    float: left;
+    display: block;
+    height: 91px;
+    background: url(images/menu_button.jpg) no-repeat right;
+    margin-left: -1px;
+}
+
+#menu #menu-menu li.last {
+    background: none;
+}
+
+#menu #menu-menu li span {
+    display: block;
+    height: 91px;
+}
+
+#menu #menu-menu li a {
+    font-family: 'aRubricaXtCnRegular';
+    display: block;
+    height: 91px;
+    padding: 0 15px;
+    line-height: 105px;
+    color: #515151;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0px 1px 2px #e4e4e4,
+                #fff 1px 0px,
+                #fff 1px 1px,
+                #fff 0px 1px,
+                #fff -1px 1px,
+                #fff -1px 0px,
+                #fff -1px -1px,
+                #fff 0px -1px,
+                #fff 1px -1px,
+                #fff 0 0 3px,
+                #fff 0 0 3px,
+                #fff 0 0 3px,
+                #fff 0 0 3px,
+                #fff 0 0 3px,
+                #fff 0 0 3px,
+                #fff 0 0 3px,
+                #fff 0 0 3px;
+}
+
+#menu #menu-menu li a:hover {
+    color: #ff6e00;
+}
+
+#menu #menu-menu li.current_page_item {
+    background: url(images/menu_active_button_left.png) no-repeat left;
+}
+
+#menu #menu-menu li.current_page_item span {
+    background: url(images/menu_active_button_right.png) no-repeat right;
+}
+
+#menu #menu-menu li.current_page_item a {
+    color: #ff6e00;
+}
