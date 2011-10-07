@@ -1,0 +1,151 @@
+
+#bannerspace_wrap{
+	position:relative;
+	overflow:hidden;
+	background: transparent;
+	z-index: 0;
+}
+
+#bannerspace .slide{
+	background: transparent;
+	background-color: inherit
+}
+
+/* using spans for better theme support */
+#bannerspace_nav {
+	position:absolute;
+	margin:0 !important;
+	padding:0 !important;
+	left:10px;
+	bottom:10px;
+	z-index:100;
+	display: none;
+}
+#bannerspace_nav span {
+	margin:0;
+	padding:0;
+	list-style:none;
+	background:none !important;
+	
+	width: 10px; 
+	height:10px;
+	float: left;  
+	list-style: none; 
+	margin-right:5px;
+}
+#bannerspace_nav span a { 
+	width: 10px; 
+	height:10px;
+	display: block;
+	background-image:url(nav-bg.png);
+	
+	background-color:#e1d7cc;
+	
+	border-radius: 5px;
+	
+	opacity: 0.8;
+	
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+#bannerspace_nav span.activeSlide a{
+	background-color:#000;
+}
+
+#bannerspace_nav span a:focus { 
+	outline: none; 
+}
+
+
+/*---------------------------- arrows ----------------------------*/
+.bs_arrow{
+	display: none; 
+	width: 30px; 
+	height: 50px;
+	margin-top:-25px;
+	position: absolute; 
+	top: 50%;
+	opacity: 0.1; 
+	z-index: 99;
+	
+	background-position:center center;
+	background-repeat:no-repeat;
+	
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+#bs_l_arrow {
+	background-image:url("l_arrow.png");
+	left: 0;
+}
+
+#bs_r_arrow {
+	background-image:url("r_arrow.png");
+	right: 0;
+}
+
+.bs_arrow:active{
+	-webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+}
+
+#bs_l_arrow:active{
+	left:-1px;
+}
+
+#bs_r_arrow:active{
+	right:-1px;
+}
+
+#bs_l_arrow:hover, 
+#bs_r_arrow:hover{
+	opacity: 1;
+}
+
+.bs_clear{
+	clear:both;
+}
+
+/*---------------------------- content ----------------------------*/
+#bannerspace p{
+	color:#000;
+	margin:0;
+	padding:0;
+}
+
+#bannerspace h2{
+	margin:0;
+	padding:0;
+	margin-bottom:20px;
+	color:#000;
+}
+
+#bannerspace h3{
+	margin:0;
+	padding:0;
+	margin-bottom:10px;
+	color:#000;
+}
+
+#bannerspace .content{
+	position:absolute;
+	right:20px;
+	top:0;
+	display: none;
+}
+
+#bannerspace .imageWrapper{
+	position:relative;
+
+	float:left;
+	
+	margin:auto;
+	text-align:center;
+	
+	overflow:hidden;
+}
+
