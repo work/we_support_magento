@@ -156,7 +156,7 @@ ul.bullet-6 li {background:url(images/bullets/6.gif) no-repeat 0 5px;}
 .columns {width: 990px; border-bottom:1px solid #eeeeee; }
 .thumb {float:left;}
 img.attachment-thumbnail {float: left; padding: 0 10px 0 0 !important;}
-.narrowcolumn {float: left; padding: 12px 0 40px 0; margin: 0; width: 650px;}
+.narrowcolumn {float: left; padding: 12px 0 40px 0; margin: 0; width: 600px;}
 .post {margin:0px 10px 20px 0px; text-align:left;}
 .post .postmetadata img {float:left;width:30px;margin:0 5px 0 0;}
 .post .postmetadata {font-size:11px; border-top:1px dotted #d5d5d5; padding:3px 2px 10px 2px; text-align:left; margin-top:15px; color:#878789;}
@@ -197,7 +197,7 @@ img.attachment-thumbnail {float: left; padding: 0 10px 0 0 !important;}
 #slideshow-nav a {background:url("images/pagination-small.png") no-repeat 0 -9px; display:block; float:left; height:9px; margin:0 1px; text-indent:-9999px; width:9px;}
 
 
-#sidebar {float:right; padding:0 0 10px 0; width:300px; color:#454547;}
+#sidebar {float:right; padding:0 0 10px 0; width:360px; color:#454547;}
 #sidebar h2 {margin: 0px 0px 10px 0px; padding: 0; font-size:19px;}
 #sidebar a {color:#878789; }
 #sidebar ul li.widget {float:left; width:280px; padding:10px 10px 30px 10px; -moz-border-radius-bottomleft:5px; -moz-border-radius-bottomright:5px; -moz-border-radius-topleft:5px; -moz-border-radius-topright:5px; margin-bottom:15px; background:url('images/wg-bottom.gif') repeat-x bottom;}
@@ -549,4 +549,55 @@ li.comment #respond #comment-form p {padding:5px;}
 #menu #menu-menu li.current_page_item a {
     color: #ff6e00;
     padding: 0 15px;
+}
+
+
+div.wpcf7 {
+	margin: 0 65px 0 0;
+    border:1px solid #bdbdbd;
+    padding: 15px 30px 15px 30px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: url("images/send-menu.jpg") scroll repeat-x 0 0 #e1e1e1;
+    
+}
+.contacts_field{
+    float:right;
+    height:20px;
+    border: 1px solid #ababab;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-left:5px;
+    
+}
+p.sendform{
+    font-family: Trebuchet MS;
+    font-size: 10pt;
+    text-align:right;
+    margin: 14px 0 0px 0 !important;
+}
+
+
+#send_button {
+    background: url("images/bg_button.png") no-repeat scroll left center transparent;
+    border: none;
+    color: #FFFFFF;
+    font-family: Trebuchet MS;
+    font-size: 13pt;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.send_btn {
+    background: url("images/bg_button_right.png") no-repeat scroll right center transparent;
+    display: block;
+    height: 43px;
+    line-height: 43px;
+}
+
+.send_btn_text {
+    padding: 0 20px;
 }
