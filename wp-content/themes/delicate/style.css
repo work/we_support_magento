@@ -460,8 +460,30 @@ li.comment #respond #comment-form p {padding:5px;}
     overflow: hidden;
 }
 
-#footer_menu .topnav a {
+#footer_menu .menu-item a {
     font-size: 13px;
     line-height: 14px;
     text-transform: none;
+    text-decoration: none;
 }
+
+#footer_menu .menu-item a:hover {
+    color: #16a5ff;
+    text-decoration: underline;
+}
+
+#footer_menu .menu-item {
+    padding: 0 15px;
+    background: url(images/footer_menu_line.jpg) no-repeat right;
+    float: left;
+}
+
+#footer_menu #menu-menu {
+    width: 330px;
+    margin: 0 auto;
+}
+
+#footer_menu #menu-menu li.last {
+    background: none;
+}
+

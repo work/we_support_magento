@@ -6,7 +6,7 @@ $t_slide_effect = t_get_option('t_slide_effect');
 
 <div id="footer">
     <div class="footer_block" id="footer_menu">
-       <?php natty_show_navigation ('primary', 'natty_show_pagemenu'); ?>
+       <?php wp_nav_menu( 'id=Menu' ); ?>
     </div>
     <div class="footer_line"></div>
     <div class="footer_block footer_block_bottom">
@@ -27,7 +27,15 @@ if ($t_tracking != ""){
 	}
 ?>
 
-<?php wp_footer(); ?>  
+<?php wp_footer(); ?>
+
+<script type="text/javascript">
+    jQuery(document).ready(function()
+    {
+       jQuery('#footer_menu li.menu-item:last').addClass('last');
+    });
+</script>
+
 <script type="text/javascript" charset="utf-8">
 <?php if (t_get_option('t_cufon_replace') == 'yes') { ?>	Cufon.now(); <?php } ?>	
 	jQuery(document).ready(function() {
