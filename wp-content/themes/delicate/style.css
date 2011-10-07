@@ -601,3 +601,54 @@ p.sendform{
 .send_btn_text {
     padding: 0 20px;
 }
+
+#bannerspace div.content {
+    padding: 0;
+    right: 0;
+}
+
+#bannerspace h3.title {
+    display: none;
+}
+
+#banner_block {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#banner_content_block {
+    background: url(images/bunner_bg.jpg) repeat-x;
+}
+
+#banner_block #bannerspace_nav {
+    right: 15px;
+    left: inherit;
+    bottom: 30px;
+}
+
+#bs_l_arrow {
+    background-image: url("iamges/l_arrow.png");
+    left: 0;
+}
+
+#banner_block #bannerspace_nav span.activeSlide a {
+    background: #2fb7ff !important;
+}
+
+#banner_block #bannerspace_nav span a {
+    background: #fff;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px #000;
+    -moz-box-shadow: 0px 2px 2px #000;
+    -webkit-box-shadow: 0px 2px 2px #000;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#banner_block #bannerspace_nav span {
+    margin-right: 4px;
+    height: 15px;
+    width: 15px;
+}

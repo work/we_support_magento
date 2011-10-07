@@ -129,4 +129,10 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
     <?php endif;     
   } // End if ?>
 </div>
+
+<div id="banner_content_block">
+    <div id="banner_block">
+        <?php echo do_shortcode('[bannerspace]'); ?>
+    </div>
+</div>
 <!-- END Header -->
