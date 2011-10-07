@@ -590,6 +590,7 @@ p.sendform{
     font-weight: bold;
     margin: 10px 0;
     text-align: center;
+    width: 260px;
 }
 
 .send_btn {
@@ -729,4 +730,22 @@ p.sendform{
 
 .block_title {
     font-size: 30px;
+}
+
+.home_content_block {
+    border-bottom: 1px dashed #99a2a7;
+    padding: 20px 20px 20px 55px;
+}
+
+.home_content_block_set {
+    background: url(images/settings.png) no-repeat left;
+}
+
+.home_content_block_clock {
+    background: url(images/clock.png) no-repeat left;
+}
+
+.home_content_block_time {
+    background: url(images/time.png) no-repeat left;
+    border: none;
 }
