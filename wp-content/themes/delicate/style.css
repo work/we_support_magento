@@ -448,9 +448,8 @@ li.comment #respond #comment-form p {padding:5px;}
 }
 
 .footer_block {
-    width: 960px;
+    width: 990px;
     margin:  0 auto;
-    padding: 0 15px;
 }
 
 .footer_cont_block h1 {
@@ -470,7 +469,7 @@ li.comment #respond #comment-form p {padding:5px;}
 }
 
 .footer_block_bottom {
-    padding: 15px 15px 20px 15px;
+    padding: 15px 0px 20px 0px;
 }
 
 .footer_line {
@@ -586,15 +585,15 @@ div.wpcf7 {
     
 }
 .contacts_field{
-    float:right;
     height:30px;
+    line-height: 30px;
     border: 1px solid #ababab;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     margin-left:5px;
     margin-right: 50px;
-    
+    padding: 0 7px;
 }
 p.sendform{
     font-family: Trebuchet MS;
@@ -786,4 +785,12 @@ h1.home_title {
 
 .home_contact {
     margin: 30px 0 20px 0;
+}
+
+.post .entry ul.services_block {
+    margin-left: 20px;
+}
+
+.services_block li {
+    list-style: disc;
 }
