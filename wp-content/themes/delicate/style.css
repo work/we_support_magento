@@ -703,3 +703,29 @@ p.sendform{
     height: 15px;
     width: 15px;
 }
+
+.new_font {
+    font-family: 'aRubricaXtCnRegular', "Consolas";
+    color: #16a5ff;
+    text-shadow: 0px 1px 2px #e4e4e4,
+                #fff 1px 0px,
+                #fff 1px 1px,
+                #fff 0px 1px,
+                #fff -1px 1px,
+                #fff -1px 0px,
+                #fff -1px -1px,
+                #fff 0px -1px,
+                #fff 1px -1px,
+                #fff 0 0 3px,
+                #fff 0 0 3px,
+                #fff 0 0 3px,
+                #fff 0 0 3px,
+                #fff 0 0 3px,
+                #fff 0 0 3px,
+                #fff 0 0 3px,
+                #fff 0 0 3px;
+}
+
+.block_title {
+    font-size: 30px;
+}

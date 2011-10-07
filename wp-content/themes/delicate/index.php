@@ -10,11 +10,7 @@ $t_show_post = t_get_option ("t_show_post");
      <?php if (have_posts()) : ?>
      <?php while (have_posts()) : the_post(); ?>							
 			<div <?php post_class();?>>
-            	
-                <div class="title">
-				<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-                <small><?php the_time('F jS, Y') ?> | <?php _e('Posted by','nattywp'); ?> <span class="author"><?php natty_get_profile() ?></span> <?php _e('in','nattywp'); ?> <?php the_category(' | ');?> - (<?php comments_popup_link(__('0 Comments', 'nattywp'), __('1 Comments', 'nattywp'), __('% Comments', 'nattywp')); ?>)</small> <?php edit_post_link(__('Edit','nattywp'), ' | ', ''); ?>
-                </div>                
+
 				<div class="entry">
             <?php 
                 if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
