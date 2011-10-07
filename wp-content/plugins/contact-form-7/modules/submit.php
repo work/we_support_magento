@@ -45,7 +45,7 @@ function wpcf7_submit_shortcode_handler( $tag ) {
 
 	$value = isset( $values[0] ) ? $values[0] : '';
 	if ( empty( $value ) )
-		$value = __( '   Get Magento Support   ', 'wpcf7' );
+		$value = __( 'Get Magento Support', 'wpcf7' );
 
 	$html = '<button id="send_button" type="submit"><span class="send_btn"><span class="send_btn_text">' . esc_attr( $value ) . '</span></span></button>';
 
