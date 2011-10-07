@@ -20,6 +20,7 @@ if (strlen($custom_title)) {echo strip_tags(stripslashes($custom_title));}else {
 wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments')) wp_enqueue_script( 'comment-reply' ); ?>
 <!-- Style sheets -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/style_temp.css" media="screen" />
 <?php include (TEMPLATEPATH . '/style.php'); ?>
 <?php wp_head(); ?>
 
