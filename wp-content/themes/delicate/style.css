@@ -506,10 +506,10 @@ li.comment #respond #comment-form p {padding:5px;}
 }
 
 #menu #menu-menu li a {
-    font-family: 'aRubricaXtCnRegular';
+    font-family: 'aRubricaXtCnRegular', "Consolas";
     display: block;
     height: 91px;
-    padding: 0 15px;
+    padding: 0 28px;
     line-height: 105px;
     color: #515151;
     font-size: 22px;
@@ -548,4 +548,5 @@ li.comment #respond #comment-form p {padding:5px;}
 
 #menu #menu-menu li.current_page_item a {
     color: #ff6e00;
+    padding: 0 15px;
 }
