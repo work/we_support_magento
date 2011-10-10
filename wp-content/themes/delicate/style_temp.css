@@ -18,7 +18,7 @@ span.wpcf7-not-valid-tip {
 .captcha_img{
     float: left;
     display: block;
-    margin: 0 15px 0 31px;
+    margin: 0 12px 0 31px;
     border: 1px solid #ababab;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -33,8 +33,10 @@ span.wpcf7-not-valid-tip {
     -moz-border-radius: 3px;
     border-radius: 3px;
     font-family: Trebuchet MS;
-    font-size: 10pt;
-    
-   
-    
+    font-size: 10pt; 
+    width:177px;
+}   
+ p.capt{
+    display:block;
+    margin-top:15px;
 }
