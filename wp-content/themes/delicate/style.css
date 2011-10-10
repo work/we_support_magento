@@ -191,21 +191,21 @@ img.attachment-thumbnail {float: left; padding: 0 10px 0 0 !important;}
     margin-top: 32px;
 }
 .fullwidth.singlepage .post .title {width:865px;}
-.singlepage .post .title h2 {line-height:27px; overflow:hidden; max-height:55px;}
+.singlepage .post .title h2 {line-height:35px; overflow:hidden; max-height:55px;}
 .post small {font-size:11px; color:#878789; padding-left:3px;}
 .post small a.cat{ background:url(images/ico-meta.gif) 1px center no-repeat; padding:0 0 0 11px; color:#878789;}
-.post .comments { position:absolute; top:0px; left:500px; background:url(images/comment-bg.gif) no-repeat; padding-left:13px; padding-top:3px; display:block; height:30px; width:74px;}
+.post .comments { position:absolute; top:0px; left:500px; padding-left:13px; padding-top:3px; display:block; height:30px; width:74px;}
 .post .comments a { font-size:11px; color:#FFF; text-decoration:none; }
 .post .comments a:hover { color:#FFF; text-decoration:underline;}
-.post .date {background:url(images/date_bg.jpg) no-repeat;  height:42px; width:77px; position:absolute; left:3px;} 
+.post .date {height:42px; width:77px; position:absolute; left:3px;}
 .post .post-month {color:#FFFFFF; display:block; font-size:11px; line-height:11px; margin-left:2px; padding-top:5px; text-align:center;}
 .post .post-day {color:#FFFFFF; display:block; font-size:18px; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; line-height:18px; margin-left:-3px; padding-top:4px; text-align:center;}
 .post .entry { margin-top:20px; width: 500px;}
 
 
 .slideshow-bg {width:990px; margin: 0 auto; position:relative; overflow:hidden;}
-.slideshow-bg #left-arrow {left: 15px; background:url("images/arrow-left.jpg") no-repeat;}
-.slideshow-bg #right-arrow {right:15px; background:url("images/arrow-right.jpg") no-repeat;}
+.slideshow-bg #left-arrow {left: 15px;}
+.slideshow-bg #right-arrow {right:15px;}
 .slideshow-bg #left-arrow, .slideshow-bg #right-arrow {position:absolute; top:45%; display: block; width:21px; height:28px;}
 .slideshow-bg #left-arrow:hover, .slideshow-bg #right-arrow:hover {opacity:0.5;}
 .slideshow-bg .slideshow-main {padding:5px 25px 30px 60px;}
@@ -651,11 +651,6 @@ p.sendform{
     bottom: 30px;
 }
 
-#bs_l_arrow {
-    background-image: url("iamges/l_arrow.png");
-    left: 0;
-}
-
 #banner_block #bannerspace_nav span.activeSlide a {
     background: #2fb7ff !important;
 }
@@ -700,11 +695,6 @@ p.sendform{
     right: 15px;
     left: inherit;
     bottom: 30px;
-}
-
-#bs_l_arrow {
-    background-image: url("iamges/l_arrow.png");
-    left: 0;
 }
 
 #banner_block #bannerspace_nav span.activeSlide a {
