@@ -191,21 +191,21 @@ img.attachment-thumbnail {float: left; padding: 0 10px 0 0 !important;}
     margin-top: 32px;
 }
 .fullwidth.singlepage .post .title {width:865px;}
-.singlepage .post .title h2 {line-height:27px; overflow:hidden; max-height:55px;}
+.singlepage .post .title h2 {line-height:35px; overflow:hidden; max-height:55px;}
 .post small {font-size:11px; color:#878789; padding-left:3px;}
 .post small a.cat{ background:url(images/ico-meta.gif) 1px center no-repeat; padding:0 0 0 11px; color:#878789;}
-.post .comments { position:absolute; top:0px; left:500px; background:url(images/comment-bg.gif) no-repeat; padding-left:13px; padding-top:3px; display:block; height:30px; width:74px;}
+.post .comments { position:absolute; top:0px; left:500px; padding-left:13px; padding-top:3px; display:block; height:30px; width:74px;}
 .post .comments a { font-size:11px; color:#FFF; text-decoration:none; }
 .post .comments a:hover { color:#FFF; text-decoration:underline;}
-.post .date {background:url(images/date_bg.jpg) no-repeat;  height:42px; width:77px; position:absolute; left:3px;} 
+.post .date {height:42px; width:77px; position:absolute; left:3px;}
 .post .post-month {color:#FFFFFF; display:block; font-size:11px; line-height:11px; margin-left:2px; padding-top:5px; text-align:center;}
 .post .post-day {color:#FFFFFF; display:block; font-size:18px; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; line-height:18px; margin-left:-3px; padding-top:4px; text-align:center;}
 .post .entry { margin-top:20px; width: 500px;}
 
 
 .slideshow-bg {width:990px; margin: 0 auto; position:relative; overflow:hidden;}
-.slideshow-bg #left-arrow {left: 15px; background:url("images/arrow-left.jpg") no-repeat;}
-.slideshow-bg #right-arrow {right:15px; background:url("images/arrow-right.jpg") no-repeat;}
+.slideshow-bg #left-arrow {left: 15px;}
+.slideshow-bg #right-arrow {right:15px;}
 .slideshow-bg #left-arrow, .slideshow-bg #right-arrow {position:absolute; top:45%; display: block; width:21px; height:28px;}
 .slideshow-bg #left-arrow:hover, .slideshow-bg #right-arrow:hover {opacity:0.5;}
 .slideshow-bg .slideshow-main {padding:5px 25px 30px 60px;}
@@ -575,9 +575,10 @@ li.comment #respond #comment-form p {padding:5px;}
 
 
 div.wpcf7 {
-	margin: 20px 0px 0 0;
+    margin: 20px 0px 0 0;
     border:1px solid #bdbdbd;
-    padding: 15px 0px 20px 0px;
+    padding: 15px 0px 15px 0px;
+    box-shadow: 0 0px 4px #c6c6c6;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -652,11 +653,6 @@ p.sendform{
     bottom: 30px;
 }
 
-#bs_l_arrow {
-    background-image: url("iamges/l_arrow.png");
-    left: 0;
-}
-
 #banner_block #bannerspace_nav span.activeSlide a {
     background: #2fb7ff !important;
 }
@@ -701,11 +697,6 @@ p.sendform{
     right: 15px;
     left: inherit;
     bottom: 30px;
-}
-
-#bs_l_arrow {
-    background-image: url("iamges/l_arrow.png");
-    left: 0;
 }
 
 #banner_block #bannerspace_nav span.activeSlide a {
@@ -794,4 +785,55 @@ h1.home_title {
 
 .services_block li {
     list-style: disc;
+}
+
+.pricing_box {
+    float: left;
+    margin-right: 50px;
+    width: 360px;
+}
+
+.pricing_box h2 {
+    color: #16A5FF;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.pricing_box p {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.pricing_content .pricing_box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.pricing_content .pricing_box li {
+    background: url(images/check.png) no-repeat left top;
+    padding: 5px 0 25px 55px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.pricing_box.last {
+    margin: 0;
+}
+
+.pricing_box.first {
+    width: 150px;
+}
+
+.no_sidebar {
+    width: 990px;
+}
+
+.no_sidebar .post .entry {
+    width: auto;
+}
+
+.no_sidebar .post {
+    margin-right: 0;
 }
