@@ -52,9 +52,11 @@ $t_show_post = t_get_option ("t_show_post");
 	endif; ?>
 	
  </div> <!-- END Narrowcolumn -->
-   <div id="sidebar" class="profile">
-     <?php get_sidebar();?>
-   </div>    
+    <?php if (!is_page('79')): ?>
+       <div id="sidebar" class="profile">
+         <?php get_sidebar();?>
+       </div>
+    <?php endif; ?>
 <div class="clear"></div>
 </div> <!-- END Columns -->
 </div><!-- END main -->

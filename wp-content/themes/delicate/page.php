@@ -1,7 +1,7 @@
 <?php get_header(); ?> 
 <div id="main">		
 	<div class="columns">      
-    <div class="narrowcolumn singlepage">
+    <div class="narrowcolumn singlepage <?php if (is_page('79')):?>no_sidebar<?php endif; ?>">
      <?php if (have_posts()) : ?>
      <?php while (have_posts()) : the_post(); ?>							
 			<div class="post">
@@ -21,15 +21,17 @@
 	<?php endwhile; ?>		
     <?php endif; ?>				
 	</div> <!-- END Narrowcolumn -->
-    <div id="sidebar" class="profile">       
-      <?php if (!function_exists('dynamic_sidebar') || (!is_active_sidebar(2))) {
-        get_sidebar(); 
-      } else {
-        echo '<ul>';
-        dynamic_sidebar('sidebar-2');
-        echo '</ul>';
-      } ?>  
-    </div>    
+    <?php if (!is_page('79')): ?>
+        <div id="sidebar" class="profile">
+          <?php if (!function_exists('dynamic_sidebar') || (!is_active_sidebar(2))) {
+            get_sidebar();
+          } else {
+            echo '<ul>';
+            dynamic_sidebar('sidebar-2');
+            echo '</ul>';
+          } ?>
+        </div>
+    <?php endif; ?>
 <div class="clear"></div>
 </div> <!-- END Columns -->
 </div><!-- END main -->

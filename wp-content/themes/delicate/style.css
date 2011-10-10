@@ -575,9 +575,10 @@ li.comment #respond #comment-form p {padding:5px;}
 
 
 div.wpcf7 {
-	margin: 20px 0px 0 0;
+    margin: 20px 0px 0 0;
     border:1px solid #bdbdbd;
     padding: 15px 0px 15px 0px;
+    box-shadow: 0 0px 4px #c6c6c6;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -783,4 +784,55 @@ h1.home_title {
 
 .services_block li {
     list-style: disc;
+}
+
+.pricing_box {
+    float: left;
+    margin-right: 50px;
+    width: 360px;
+}
+
+.pricing_box h2 {
+    color: #16A5FF;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.pricing_box p {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.pricing_content .pricing_box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.pricing_content .pricing_box li {
+    background: url(images/check.png) no-repeat left top;
+    padding: 5px 0 25px 55px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.pricing_box.last {
+    margin: 0;
+}
+
+.pricing_box.first {
+    width: 150px;
+}
+
+.no_sidebar {
+    width: 990px;
+}
+
+.no_sidebar .post .entry {
+    width: auto;
+}
+
+.no_sidebar .post {
+    margin-right: 0;
 }
