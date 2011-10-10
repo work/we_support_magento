@@ -577,7 +577,7 @@ li.comment #respond #comment-form p {padding:5px;}
 div.wpcf7 {
 	margin: 20px 0px 0 0;
     border:1px solid #bdbdbd;
-    padding: 15px 0px 15px 0px;
+    padding: 15px 0px 20px 0px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -591,13 +591,13 @@ div.wpcf7 {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    margin-left:5px;
-    margin-right: 50px;
+    margin-right: 45px;
     padding: 0 7px;
+    width:165px;
 }
 p.sendform{
     font-family: Trebuchet MS;
-    font-size: 10pt;
+    font-size: 11pt;
     text-align:right;
     margin: 14px 0 0px 0 !important;
     height: 30px;
@@ -611,9 +611,10 @@ p.sendform{
     font-family: Trebuchet MS;
     font-size: 13pt;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 10px 0px 10px 53px;
     text-align: center;
     width: 260px;
+    float:left;
 }
 
 .send_btn {
