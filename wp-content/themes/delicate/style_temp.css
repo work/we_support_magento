@@ -1,5 +1,5 @@
 p.s_button{
-margin-left:50px !important;
+/*margin-left:45px !important;*/
     
 }
 
@@ -18,15 +18,16 @@ span.wpcf7-not-valid-tip {
 .captcha_img{
     float: left;
     display: block;
-    margin: 0 12px 0 31px;
+    margin: 0 12px 0 34px;
     border: 1px solid #ababab;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+    height: 30px;
     
 }
 .captcha_input{
-    height:28px;
+    height:30px;
     line-height: 30px;
     border: 1px solid #ababab;
     -webkit-border-radius: 3px;
@@ -34,9 +35,17 @@ span.wpcf7-not-valid-tip {
     border-radius: 3px;
     font-family: Trebuchet MS;
     font-size: 10pt; 
-    width:177px;
+    margin-right: 45px;
+    width:165px;
+    padding: 0 7px
 }   
  p.capt{
     display:block;
     margin-top:15px;
+}
+ div.wpcf7 img.ajax-loader {
+	border: none;
+	vertical-align: middle;
+	margin-left: 4px;
+    margin-top: 30px;
 }
