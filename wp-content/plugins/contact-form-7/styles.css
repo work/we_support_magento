@@ -43,12 +43,6 @@ span.wpcf7-list-item {
 	display: none;
 }
 
-div.wpcf7 img.ajax-loader {
-	border: none;
-	vertical-align: middle;
-	margin-left: 4px;
-}
-
 div.wpcf7 .watermark {
 	color: #888;
 }
