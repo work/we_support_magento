@@ -1,7 +1,7 @@
 /*
 ------------------------------------------------------------------------
 Theme Name:    Delicate
-Theme URI:     http://www.nattywp.com/view-natty-theme.php?theme_id=99900&theme_name=Delicate
+Theme URI:     http://www.nattywp.com/view-natty-theme.php?theme_id=99600&theme_name=Delicate
 Description:   Delicate is a free professional WordPress theme built on the NattyWP CMS framework.
 Version:       3.5
 Author:        NattyWP
@@ -141,7 +141,7 @@ ul.bullet-6 li {background:url(images/bullets/6.gif) no-repeat 0 5px;}
 
 #header {height:111px;}
 .content-pad {background-color:#fefefe; text-align: left; margin: 0pt auto; padding:0; position: relative; z-index: 1000;}
-.top { margin: 0 auto 20px auto; width: 990px; overflow: hidden;}
+.top { margin: 0 auto 20px auto; width: 960px; overflow: hidden;}
 .bot {background:url(images/main-bot.png) no-repeat; height:13px; clear:left; margin: 0px auto 0 auto; width: 995px;}
 #logo {padding-top:20px; float:left;}
 .tagline {position:absolute; font-size:12px; font-weight:bold; text-transform:uppercase; background:#fff; padding:6px 17px 4px 12px; top:50%; right:0px;}
@@ -153,7 +153,7 @@ ul.bullet-6 li {background:url(images/bullets/6.gif) no-repeat 0 5px;}
 .search-input {background:transparent url(images/search.png) no-repeat scroll 0 0; border:medium none; color:#9499A1; float:left; font-family:Arial; font-size:13px; height:17px; margin:0; padding:5px 10px 0 38px; width:240px;}
 .search-submit {border:0 none; float:right; height:30px; margin-top:-2px; width:73px;}
 
-.columns {width: 990px; border-bottom:1px solid #eeeeee; }
+.columns {width: 960px; border-bottom:1px solid #eeeeee; }
 .thumb {float:left;}
 img.attachment-thumbnail {float: left; padding: 0 10px 0 0 !important;}
 .narrowcolumn {float: left; padding: 0 0 20px 0; margin: 0; width: 600px;}
@@ -203,14 +203,14 @@ img.attachment-thumbnail {float: left; padding: 0 10px 0 0 !important;}
 .post .entry { margin-top:20px; width: 500px;}
 
 
-.slideshow-bg {width:990px; margin: 0 auto; position:relative; overflow:hidden;}
+.slideshow-bg {width:960px; margin: 0 auto; position:relative; overflow:hidden;}
 .slideshow-bg #left-arrow {left: 15px;}
 .slideshow-bg #right-arrow {right:15px;}
 .slideshow-bg #left-arrow, .slideshow-bg #right-arrow {position:absolute; top:45%; display: block; width:21px; height:28px;}
 .slideshow-bg #left-arrow:hover, .slideshow-bg #right-arrow:hover {opacity:0.5;}
 .slideshow-bg .slideshow-main {padding:5px 25px 30px 60px;}
-.slideshow-bg .slideshow {overflow:hidden; width:990px; margin-bottom:15px; background:#F9F9F9; position:relative;}
-.slideshow-bg .slideshow, .slideshow-bg .slideshow > div {height:230px; width:990px;}
+.slideshow-bg .slideshow {overflow:hidden; width:960px; margin-bottom:15px; background:#F9F9F9; position:relative;}
+.slideshow-bg .slideshow, .slideshow-bg .slideshow > div {height:230px; width:960px;}
 .slideshow .desc {float:left; width:370px; padding:13px; margin-top:10px;}
 .slideshow .desc h2 {padding-bottom:28px;}
 .slideshow .desc h2 a {font-size:41px; font-weight:bold;}
@@ -443,12 +443,12 @@ li.comment #respond #comment-form p {padding:5px;}
 .commentlist .bypostauthor {}
 
 #main {
-    width: 990px;
+    width: 960px;
     margin: 0 auto;
 }
 
 .footer_block {
-    width: 990px;
+    width: 960px;
     margin:  0 auto;
 }
 
@@ -478,7 +478,7 @@ li.comment #respond #comment-form p {padding:5px;}
 }
 
 #footer_menu {
-    padding: 20px 15px;
+    padding: 20px 10px;
     overflow: hidden;
 }
 
@@ -789,8 +789,8 @@ h1.home_title {
 
 .pricing_box {
     float: left;
-    margin-right: 50px;
-    width: 360px;
+    margin-right: 55px;
+    width: 350px;
 }
 
 .pricing_box h2 {
@@ -823,11 +823,11 @@ h1.home_title {
 }
 
 .pricing_box.first {
-    width: 150px;
+    width: 140px;
 }
 
 .no_sidebar {
-    width: 990px;
+    width: 960px;
 }
 
 .no_sidebar .post .entry {
